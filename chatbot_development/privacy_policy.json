@@ -1,15 +1,55 @@
 [
     {
+        "link_text": "",
+        "href": "/"
+    },
+    {
         "header": null,
         "sub_content": [
             "By Role"
         ]
     },
     {
+        "link_text": "Business Leaders",
+        "href": "/business-leaders.html"
+    },
+    {
+        "link_text": "Data Leaders",
+        "href": "/data-leaders.html"
+    },
+    {
+        "link_text": "Data Analysts",
+        "href": "/data-analysts.html"
+    },
+    {
+        "link_text": "Business Teams",
+        "href": "/business-teams.html"
+    },
+    {
         "header": null,
         "sub_content": [
             "By Team"
         ]
+    },
+    {
+        "link_text": "Marketing",
+        "href": "/marketing-team.html"
+    },
+    {
+        "link_text": "Sales",
+        "href": "/sales-team.html"
+    },
+    {
+        "link_text": "Finance",
+        "href": "/finance-team.html"
+    },
+    {
+        "link_text": "Pricing",
+        "href": "/pricing.html"
+    },
+    {
+        "link_text": "About",
+        "href": "/about.html"
     },
     {
         "header": "PRIVACY POLICY",
@@ -25,7 +65,10 @@
                     "css-18j379d"
                 ],
                 "items": [
-                    "At Presight, we are committed to protecting the privacy of our customers and visitors to our website. This Privacy Policy explains how we collect, use, and disclose information about our customers and visitors."
+                    {
+                        "paragraph": "At Presight, we are committed to protecting the privacy of our customers and visitors to our website. This Privacy Policy explains how we collect, use, and disclose information about our customers and visitors.",
+                        "details": []
+                    }
                 ]
             }
         ]
@@ -37,7 +80,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "We collect several different types of information for various purposes to provide and improve our Service to you."
+            {
+                "paragraph": "We collect several different types of information for various purposes to provide and improve our Service to you.",
+                "details": []
+            }
         ]
     },
     {
@@ -54,12 +100,16 @@
                     "css-9f6g39"
                 ],
                 "items": [
-                    "While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (\"Personal Data\"). Personally identifiable information may include, but is not limited to:",
-                    "Email address",
-                    "First name and last name",
-                    "Phone number",
-                    "Address, State, Province, ZIP/Postal code, City",
-                    "Cookies and Usage Data"
+                    {
+                        "paragraph": "While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (\"Personal Data\"). Personally identifiable information may include, but is not limited to:",
+                        "details": [
+                            "Email address",
+                            "First name and last name",
+                            "Phone number",
+                            "Address, State, Province, ZIP/Postal code, City",
+                            "Cookies and Usage Data"
+                        ]
+                    }
                 ]
             },
             {
@@ -69,7 +119,10 @@
                     "css-9f6g39"
                 ],
                 "items": [
-                    "We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device (\"Usage Data\"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data."
+                    {
+                        "paragraph": "We may also collect information that your browser sends whenever you visit our Service or when you access the Service by or through a mobile device (\"Usage Data\"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers, and other diagnostic data.",
+                        "details": []
+                    }
                 ]
             }
         ]
@@ -81,14 +134,18 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "Presight uses the collected data for various purposes:",
-            "To provide and maintain our Service",
-            "To notify you about changes to our Service",
-            "To allow you to participate in interactive features of our Service when you choose to do so",
-            "To provide customer support",
-            "To gather analysis or valuable information so that we can improve our Service",
-            "To monitor the usage of our Service",
-            "To detect, prevent and address technical issues"
+            {
+                "paragraph": "Presight uses the collected data for various purposes:",
+                "details": [
+                    "To provide and maintain our Service",
+                    "To notify you about changes to our Service",
+                    "To allow you to participate in interactive features of our Service when you choose to do so",
+                    "To provide customer support",
+                    "To gather analysis or valuable information so that we can improve our Service",
+                    "To monitor the usage of our Service",
+                    "To detect, prevent and address technical issues"
+                ]
+            }
         ]
     },
     {
@@ -98,7 +155,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "As personal information is collected, you will be asked to confirm that your information is correct prior to submitting it to Presight."
+            {
+                "paragraph": "As personal information is collected, you will be asked to confirm that your information is correct prior to submitting it to Presight.",
+                "details": []
+            }
         ]
     },
     {
@@ -115,7 +175,10 @@
                     "css-9f6g39"
                 ],
                 "items": [
-                    "You have the right to access all of your personal information that we hold. Through the application, you can correct, amend, or append your personal information by logging into the application and navigating to your settings and profile."
+                    {
+                        "paragraph": "You have the right to access all of your personal information that we hold. Through the application, you can correct, amend, or append your personal information by logging into the application and navigating to your settings and profile.",
+                        "details": []
+                    }
                 ]
             },
             {
@@ -125,7 +188,10 @@
                     "css-9f6g39"
                 ],
                 "items": [
-                    "Presight employs automated edit checks to ensure that data entry fields are completed properly when collecting personal information. These edit checks help maintain data integrity and accuracy. You are encouraged to provide complete and valid information to ensure the smooth processing of their personal data."
+                    {
+                        "paragraph": "Presight employs automated edit checks to ensure that data entry fields are completed properly when collecting personal information. These edit checks help maintain data integrity and accuracy. You are encouraged to provide complete and valid information to ensure the smooth processing of their personal data.",
+                        "details": []
+                    }
                 ]
             }
         ]
@@ -137,7 +203,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "We may disclose your application data to third-party service providers who help us provide our services such as Datadog, AWS, Google Cloud and Google Workspace. We may also disclose your information in response to a legal request, such as a subpoena or court order, or to protect our rights or the rights of others."
+            {
+                "paragraph": "We may disclose your application data to third-party service providers who help us provide our services such as Datadog, AWS, Google Cloud and Google Workspace. We may also disclose your information in response to a legal request, such as a subpoena or court order, or to protect our rights or the rights of others.",
+                "details": []
+            }
         ]
     },
     {
@@ -147,7 +216,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "Your personal data will not be subject to sharing, transfer, rental or exchange for the benefit of third parties, including AI models."
+            {
+                "paragraph": "Your personal data will not be subject to sharing, transfer, rental or exchange for the benefit of third parties, including AI models.",
+                "details": []
+            }
         ]
     },
     {
@@ -157,10 +229,14 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "In all cases when users authenticate the platform to Google Workspace, the following applies:",
-            "We do not retain or use Google User Data to develop, improve, or train generalized/non-personalized AI and/or ML models.",
-            "We do not use Google Workspace APIs to develop, improve, or train generalized/non-personalized AI and/or ML models.",
-            "We do not transfer Google User Data to third-party AI tools for the purpose of developing, improving, or training generalized or non-personalized AI and/or ML models."
+            {
+                "paragraph": "In all cases when users authenticate the platform to Google Workspace, the following applies:",
+                "details": [
+                    "We do not retain or use Google User Data to develop, improve, or train generalized/non-personalized AI and/or ML models.",
+                    "We do not use Google Workspace APIs to develop, improve, or train generalized/non-personalized AI and/or ML models.",
+                    "We do not transfer Google User Data to third-party AI tools for the purpose of developing, improving, or training generalized or non-personalized AI and/or ML models."
+                ]
+            }
         ]
     },
     {
@@ -182,7 +258,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "Customer data is retained for as long as the account is in active status. Data enters an “expired” state when the account is voluntarily closed. Expired account data will be retained for 60 days. After this period, the account and related data will be removed."
+            {
+                "paragraph": "Customer data is retained for as long as the account is in active status. Data enters an “expired” state when the account is voluntarily closed. Expired account data will be retained for 60 days. After this period, the account and related data will be removed.",
+                "details": []
+            }
         ]
     },
     {
@@ -217,7 +296,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "We use cookies to enhance your experience on our website. You can control the use of cookies through your web browser settings."
+            {
+                "paragraph": "We use cookies to enhance your experience on our website. You can control the use of cookies through your web browser settings.",
+                "details": []
+            }
         ]
     },
     {
@@ -227,7 +309,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those websites."
+            {
+                "paragraph": "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those websites.",
+                "details": []
+            }
         ]
     },
     {
@@ -237,7 +322,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "We may update this Privacy Policy from time to time. The updated Privacy Policy will be posted on our website."
+            {
+                "paragraph": "We may update this Privacy Policy from time to time. The updated Privacy Policy will be posted on our website.",
+                "details": []
+            }
         ]
     },
     {
@@ -247,7 +335,10 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "If you have any questions about this Privacy Policy, please contact us through the customer portal or by email atpresight@presight.io."
+            {
+                "paragraph": "If you have any questions about this Privacy Policy, please contact us through the customer portal or by email atpresight@presight.io.",
+                "details": []
+            }
         ]
     },
     {
@@ -257,10 +348,45 @@
             "css-18j379d"
         ],
         "sub_content": [
-            "We commit to only use personal information for the purposes identified in the entity's privacy policy.",
-            "Presight.io 2022 All Rights Reserved",
-            "Ho Chi Minh City, Vietnam",
-            "Singapore",
+            {
+                "paragraph": "We commit to only use personal information for the purposes identified in the entity's privacy policy.",
+                "details": []
+            }
+        ]
+    },
+    {
+        "link_text": "Terms of Use",
+        "href": "/terms-of-use.html"
+    },
+    {
+        "link_text": "Privacy Policy",
+        "href": "/privacy-policy.html"
+    },
+    {
+        "link_text": "Limited Use Disclosure",
+        "href": "/limit-use-disclosure.html"
+    },
+    {
+        "header": null,
+        "sub_content": [
+            "Presight.io 2022 All Rights Reserved"
+        ]
+    },
+    {
+        "header": null,
+        "sub_content": [
+            "Ho Chi Minh City, Vietnam"
+        ]
+    },
+    {
+        "header": null,
+        "sub_content": [
+            "Singapore"
+        ]
+    },
+    {
+        "header": null,
+        "sub_content": [
             "Seattle, WA, USA"
         ]
     }
