@@ -9,9 +9,8 @@ const clearChatButton = document.getElementById("deleteButton");
 let currentUserMessage = null;
 let isGeneratingResponse = false;
 
-const GOOGLE_API_KEY = "AIzaSyAq_8ekmHQVlT1Ar8Q8hl-VLzzU1q-wojs";
-const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GOOGLE_API_KEY}`;
-
+// URL của API backend
+const API_ENDPOINT = "http://localhost:8000/ask"
 
 // Load saved data from local storage
 const loadSavedChatHistory = () => {
@@ -109,41 +108,40 @@ const showTypingEffect = (rawText, htmlText, messageElement, incomingMessageElem
     }, 75);
 };
 
-// Fetch API response based on user input
+// // Fetch API response based on user input
 const requestApiResponse = async (incomingMessageElement) => {
     const messageTextElement = incomingMessageElement.querySelector(".message__text");
 
     try {
-        const response = await fetch(API_REQUEST_URL, {
+        const response = await fetch(API_ENDPOINT, { 
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-                //FIX
                 question: currentUserMessage
-                // contents: [{ role: "user", parts: [{ text: currentUserMessage }] }]
             }),
         });
 
         const responseData = await response.json();
-        if (!response.ok) throw new Error(responseData.error.message);
+        if (!response.ok) throw new Error(responseData.error?.message || "Error from server");
 
-        // const responseText = responseData?.candidates?.[0]?.content?.parts?.[0]?.text;
-        //FIX
-        const responseText = responseData.answer;
-        if (!responseText) throw new Error("Invalid API response.");
+        // Lấy answer từ Flask
+        const responseText = responseData.answer;  
+        if (!responseText) throw new Error("No 'answer' returned from backend.");
 
+        // Hiển thị (hoặc typing effect) lên màn hình
         const parsedApiResponse = marked.parse(responseText);
         const rawApiResponse = responseText;
-
         showTypingEffect(rawApiResponse, parsedApiResponse, messageTextElement, incomingMessageElement);
 
-        // Save conversation in local storage
+        // Optional: Lưu chat vào localStorage
         let savedConversations = JSON.parse(localStorage.getItem("saved-api-chats")) || [];
         savedConversations.push({
             userMessage: currentUserMessage,
-            apiResponse: responseData
+            // Lưu plain text thay vì full JSON
+            apiResponse: { text: responseText } 
         });
         localStorage.setItem("saved-api-chats", JSON.stringify(savedConversations));
+
     } catch (error) {
         isGeneratingResponse = false;
         messageTextElement.innerText = error.message;
@@ -152,6 +150,7 @@ const requestApiResponse = async (incomingMessageElement) => {
         incomingMessageElement.classList.remove("message--loading");
     }
 };
+
 
 // Add copy button to code blocks
 const addCopyButtonToCodeBlocks = () => {
