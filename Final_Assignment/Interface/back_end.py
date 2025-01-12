@@ -23,7 +23,7 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ======== 1. Load dữ liệu đã indexing sẵn ========
-with open("indexed_data.pkl", "rb") as f:
+with open("Interface/indexed_data.pkl", "rb") as f:
     indexed_data = pickle.load(f)
 
 model = SentenceTransformer("all-MiniLM-L6-v2")  
