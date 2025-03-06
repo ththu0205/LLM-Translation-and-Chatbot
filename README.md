@@ -56,6 +56,8 @@ Here is the link to the website: [Presight Privacy Policy](https://www.presight.
 |-------------------------|-------------------------------------------------------------------|  
 | llm_integration         | Developing an AI for language translation.                        |
 | chatbot_development     | Building a chatbot by crawling, preprocessing, and indexing data. |
+| chatbot_interface       | Source code to create a user-friendly chatbot interaction UI.     |
+| results                 | Stores output images, chatbot demo video, and the consolidated source code. |
 
 ## **Contributors**
 | **Name**| **Major**| **University**|
