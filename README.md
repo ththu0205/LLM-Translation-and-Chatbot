@@ -33,7 +33,7 @@ Here is the link to the website: [Presight Privacy Policy](https://www.presight.
     - Input: ["Hello", "How are you?", "Tôi là sinh viên"] 
     → Output: ["Xin chào", "Bạn khỏe không?", "Tôi là sinh viên"]
 
-    ![alt text](image.png)
+    <img src="results/result_1.png">
 
 
 **Part 2: AI-Powered Chatbot**
@@ -48,7 +48,7 @@ Here is the link to the website: [Presight Privacy Policy](https://www.presight.
 
     - Chatbot response: "The policy is a Privacy Policy that explains how Presight collects, uses, and discloses information about their customers and website visitors."
     
-    ![alt text](image-1.png)
+    <img src="results/result_2.png">
 
 ## **Project Structure**
   
